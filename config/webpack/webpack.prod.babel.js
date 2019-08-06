@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 
 import paths from './paths';

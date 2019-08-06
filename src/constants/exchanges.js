@@ -16,6 +16,21 @@ export default [
     },
   },
   {
+    id: 'krx',
+    city: 'Seoul',
+    country: 'South Korea',
+    flag: 'kr',
+    timeZone: 'Asia/Seoul',
+    openTime: {
+      hours: 9,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 15,
+      minutes: 30,
+    },
+  },
+  {
     id: 'jpx',
     city: 'Tokyo',
     country: 'Japan',
@@ -50,7 +65,7 @@ export default [
   {
     id: 'sse',
     city: 'Shanghai',
-    country: 'Hong Kong',
+    country: 'China',
     flag: 'cn',
     name: 'Shanghai Stock Exchange',
     timeZone: 'Asia/Shanghai',
@@ -60,6 +75,22 @@ export default [
     },
     closeTime: {
       hours: 16,
+      minutes: 0,
+    },
+  },
+  {
+    id: 'sgx',
+    city: 'Singapore',
+    country: 'Singapore',
+    flag: 'sg',
+    name: 'Singapore Exchange',
+    timeZone: 'Asia/Singapore',
+    openTime: {
+      hours: 9,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 17,
       minutes: 0,
     },
   },
@@ -80,6 +111,70 @@ export default [
     },
   },
   {
+    id: 'rusx',
+    city: 'Moscow',
+    country: 'Russia',
+    flag: 'ru',
+    name: 'OTC Russia',
+    timeZone: 'Europe/Moscow',
+    openTime: {
+      hours: 10,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 17,
+      minutes: 0,
+    },
+  },
+  {
+    id: 'xist',
+    city: 'Istanbul',
+    country: 'Turkey',
+    flag: 'tr',
+    name: 'Istanbul Stock Exchange',
+    timeZone: 'Europe/Istanbul',
+    openTime: {
+      hours: 10,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 18,
+      minutes: 0,
+    },
+  },
+  {
+    id: 'eurex',
+    city: 'Berlin',
+    country: 'Germany',
+    flag: 'de',
+    name: 'Eurex Germany',
+    timeZone: 'Europe/Berlin',
+    openTime: {
+      hours: 8,
+      minutes: 55,
+    },
+    closeTime: {
+      hours: 17,
+      minutes: 45,
+    },
+  },
+  {
+    id: 'xpar',
+    city: 'Paris',
+    country: 'France',
+    flag: 'fr',
+    name: 'Euronext Paris Exchange',
+    timeZone: 'Europe/Paris',
+    openTime: {
+      hours: 9,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 17,
+      minutes: 30,
+    },
+  },
+  {
     id: 'lse',
     city: 'London',
     country: 'GB',
@@ -92,6 +187,22 @@ export default [
     },
     closeTime: {
       hours: 16,
+      minutes: 30,
+    },
+  },
+  {
+    id: 'xdub',
+    city: 'Dublin',
+    country: 'Ireland',
+    flag: 'ie',
+    name: 'Irish Stock Exchange',
+    timeZone: 'Europe/Dublin',
+    openTime: {
+      hours: 9,
+      minutes: 0,
+    },
+    closeTime: {
+      hours: 17,
       minutes: 30,
     },
   },
